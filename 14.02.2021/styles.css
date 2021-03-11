@@ -1,0 +1,150 @@
+<style>
+*{box-sizing: border-box;}
+header{
+  padding:5px;text-align:center;font-size: 30px;}
+h3{
+  font-size: 30px;
+  font-style: italic;
+  font-weight: bold;
+
+
+}
+.header{
+  background-image: url('12.jpg');
+height: 250px;
+  border:5px;
+  border-color: white;
+  padding:10px;
+  text-align:left;
+  font-size:35px;
+  color:white;
+}
+.music{
+  display: flex;
+  width: 100%;
+  height: 200px;
+  padding:  35px;
+  align-items: center;
+}
+.music a{
+  text-decoration: none;
+  text-align: left;
+  font-size: 20px;
+  font-style: italic;
+
+}
+.music img{
+
+  display:flex;
+  padding-right: 40px;
+
+
+}
+
+
+footer{
+  padding: 10px;
+  text-align:center;
+  color:white;}
+
+body{
+  background-image:url('20.jpg');
+  font-family: 'Truculenta', sans-serif;
+font-size:17px;}
+
+
+.container{
+  width:1000px;
+  min-height: 1000px;
+  border:10px solid #EAEEF7;
+  margin:0 auto;
+  background-color: white;}
+
+  .nav ul{
+display: inline-flex;
+  }
+  .nav{
+  background-color: #E3EAFB;
+  }
+
+  .nav li a{
+    margin-right: 40px;
+    display: flex;
+   text-decoration: none;
+   background-color: #E3EAFB;
+   font-weight: bold;
+  }
+  .nav li a:hover{
+    background-color: #A0B2DB;
+  }
+.content-wrapper{
+  display:flex;
+  width: 100%;
+
+
+}
+.content{
+  width: 70%;
+  background-color:#E3EAFB;
+border: 5px solid white;
+
+}
+.aside{
+  width: 30%;
+  border: 5px solid white;
+  border-right: none;
+}
+.allrow{
+  display: flex;
+  width: 100%;
+}
+.col1{
+  width: 30%;
+  border:5px solid white;
+  border-left: none;
+}
+.col2{
+  width: 70%;
+  background-color:#E3EAFB;
+  border: 5px solid white;
+}
+.film{
+  display: flex;
+  width: 100%;
+
+}
+.info{
+  width: 80%;
+  background-color:#E3EAFB;
+  border: 5px solid white;
+}
+.see{
+  width: 20%;
+  border: 5px solid white;
+  border-right: none;
+}
+  .footer{
+    display: flex;
+    height:100px;}
+
+
+  .title{
+    height: 100%;
+    width: 90%;
+    border: 2px solid black;
+    background-image: url('fo.jpg');
+    background-position: center;
+    background-repeat:repeat-x;
+
+    align-items: center;
+  }
+  .photo{
+    height: 100%;
+    width: 10%;
+    border:2px solid black;
+    background-image: url('15.png');
+    background-position: center;
+    background-repeat: no-repeat;
+
+  }
+</style>
